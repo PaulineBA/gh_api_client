@@ -8,8 +8,4 @@ describe('Application main view', () => {
       .should('contain', 'GitHub Search engine')
   });
 
-  it('contains search button', () => {
-    cy.get(#button).should("contain", "search")
-
-  })
 });

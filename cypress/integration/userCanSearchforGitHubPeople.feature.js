@@ -4,8 +4,13 @@ describe("User can search name", () => {
     cy.route({
       method: "GET",
       url: "http://localhost:3000/api/v1/",
-      //response: "fixture:products.json",
+      response: "fixture:people.json",
     });
-    cy.visit("/");
-    cy.get('#search').clickOn()
+    cy.visit("/")
+    cy.
+    cy.get('button#search').click()
   });
+  it("successfully", () => {
+    cy.get("#name","#email","#body")
+  })
+})

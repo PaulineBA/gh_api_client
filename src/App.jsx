@@ -10,9 +10,14 @@ const App = () => {
         <Header />
       </section>
       <section name="main">
-        <GHSearch/>
+        <GHSearch />
       </section>
     </Container>
+    <Button
+      onClick="search"
+    >
+      search
+  </Button>
   )
 }
 

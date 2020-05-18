@@ -1,3 +1,30 @@
+## User stories ##
+
+`As a user
+In order to use efficiently GitHub
+I would like to be able to have a search function`
+
+Tasks--> 
+Create feature test for user to write a name in the input search
+Test the sad path : If name doesn't exist on GH -> return message
+Create functionality for the button (Get request/ Index action if many people listed)
+Mock response with the fixture file
+Update GHsearch component
+
+`As a user
+In order to go back to my search page
+I would like to click on a button "back"`
+
+Tasks-->
+Create feature test for the button
+Update the App component
+
+########
+
+
+
+
+
 ## Midcourse Exam Challenge - GitHub User Search
 
 You are challenged with creating a feature that allows the users to search the GitHub registry of users.
