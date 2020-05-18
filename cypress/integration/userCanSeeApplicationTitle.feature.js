@@ -7,4 +7,9 @@ describe('Application main view', () => {
     cy.get("section[name='title']")
       .should('contain', 'GitHub Search engine')
   });
+
+  it('contains search button', () => {
+    cy.get(#button).should("contain", "search")
+
+  })
 });
