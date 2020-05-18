@@ -5,7 +5,7 @@ In order to use efficiently GitHub
 I would like to be able to have a search function`
 
 Tasks--> 
-Create feature test for user to write a name in the input search
+Create feature test for fet a list of name according to the search
 Test the sad path : If name doesn't exist on GH -> return message
 Create functionality for the button (Get request/ Index action if many people listed)
 Mock response with the fixture file
